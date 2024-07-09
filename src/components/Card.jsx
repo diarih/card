@@ -19,14 +19,18 @@ const Card = () => {
               <p className={'font-semibold text-xs'}>Published 21 Dec 2023</p>
             </div>
             <div>
-              <h1 className={'text-xl font-bold group-hover:text-amber-400 cursor-pointer'}>HTML & CSS foundations</h1>
+                <a href="https://dihza.tech/" target="_blank" rel="noopener noreferrer">
+                <h1 className={'text-xl font-bold group-hover:text-amber-400 cursor-pointer'}>HTML & CSS
+                  foundations</h1>
+              </a>
             </div>
             <div>
-              <p className={'text-gray-400'}>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+              <p className={'text-gray-400'}>These languages are the backbone of every website, defining structure,
+                content, and presentation.</p>
             </div>
           </div>
           <div className={'flex items-center space-x-2'}>
-            <img className={'h-10 w-10 rounded-full'} src={Avatar} />
+            <img className={'h-10 w-10 rounded-full'} src={Avatar}/>
             <div>
               <p className={'text-xs font-bold'}>Greg Hooper</p>
             </div>
